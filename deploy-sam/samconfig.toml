@@ -1,0 +1,12 @@
+version = 0.1
+[default]
+[default.deploy]
+[default.deploy.parameters]
+stack_name = "modelo-pred-ozono"
+s3_bucket = "aws-sam-cli-managed-default-samclisourcebucket-1pks10o0jlowy"
+s3_prefix = "modelo-pred-ozono"
+region = "us-east-1"
+confirm_changeset = true
+capabilities = "CAPABILITY_IAM"
+disable_rollback = true
+image_repositories = ["HelloWorldFunction=363224857889.dkr.ecr.us-east-1.amazonaws.com/modelopredozonoabd5a5f7/helloworldfunction19d43fc4repo"]
